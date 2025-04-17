@@ -3,6 +3,7 @@
 [![English](https://img.shields.io/badge/English-Click-yellow)](docs/README.en.md)
 [![简体中文](https://img.shields.io/badge/简体中文-点击查看-orange)](README.md)
 [![npm](https://img.shields.io/npm/v/rednote-mcp)](https://www.npmjs.com/package/rednote-mcp)
+[![smithery badge](https://smithery.ai/badge/@JonaFly/rednote-mcp)](https://smithery.ai/server/@JonaFly/rednote-mcp)
 
 小红书内容访问的MCP服务
 
@@ -14,6 +15,14 @@ https://github.com/user-attachments/assets/06b2c67f-d9ed-4a30-8f1d-9743f3edaa3a
 
 ```bash
 npx playwright install
+```
+
+### Installing via Smithery
+
+To install rednote-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@JonaFly/rednote-mcp):
+
+```bash
+npx -y @smithery/cli install @JonaFly/rednote-mcp --client claude
 ```
 
 ### NPM 全局安装
